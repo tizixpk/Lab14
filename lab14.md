@@ -55,13 +55,22 @@
    sudo apt-get update
    sudo apt-get install htop
    ```
+![image](https://github.com/user-attachments/assets/3e9693f2-a7f5-4a20-981f-389639f95fa0)
+
    Para desinstalar y limpiar el cache:
    ```bash
    sudo apt-get remove htop
    sudo apt-get autoclean
    ```
 
-2. **Manipulación del archivo /etc/apt/sources.list:**
+![image](https://github.com/user-attachments/assets/70e97ce1-050c-458b-b6df-fcd3ae365e9d)
+
+![image](https://github.com/user-attachments/assets/576a9a97-021d-4fb4-a49a-8cf036a9f5e8)
+
+![image](https://github.com/user-attachments/assets/ddee2041-f755-4a74-9fb0-7271044c894c)
+
+
+1. **Manipulación del archivo /etc/apt/sources.list:**
    Abroel archivo con:
    ```bash
    sudo nano /etc/apt/sources.list
@@ -70,12 +79,16 @@
    ```
    deb http://deb.debian.org/debian buster-backports main contrib non-free
    ```
+   
+![image](https://github.com/user-attachments/assets/47d840d2-db79-4497-a504-d00c136f0346)
+
+
    Luego actualiza la lista de paquetes:
    ```bash
    sudo apt-get update
    ```
 
-3. **Uso de dpkg para gestionar paquetes locales:**
+1. **Uso de dpkg para gestionar paquetes locales:**
    - Descarga el paquete .deb de Google Chrome desde su sitio oficial.
    - Instala el paquete con:
    ```bash
@@ -86,7 +99,7 @@
    sudo apt-get -f install
    ```
 
-4. **Instalación desde código fuente:**
+2. **Instalación desde código fuente:**
    ```bash
    wget https://www.python.org/ftp/python/3.10.6/Python-3.10.6.tgz
    tar -xzvf Python-3.10.6.tgz
