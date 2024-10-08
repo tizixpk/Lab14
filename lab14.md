@@ -1,3 +1,5 @@
+### Tiziano Pirez 4to 4ta
+
 # Gestión de Software y Paquetes
 
 ## Cuestionario
@@ -53,7 +55,7 @@
    sudo apt-get update
    sudo apt-get install htop
    ```
-   Para desinstalar:
+   Para desinstalar y limpiar el cache:
    ```bash
    sudo apt-get remove htop
    sudo apt-get autoclean
@@ -93,6 +95,3 @@
    make
    sudo make install
    ```
-
-```
-
