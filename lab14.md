@@ -108,3 +108,6 @@
    make
    sudo make install
    ```
+![image](https://github.com/user-attachments/assets/7e6aec27-f494-45ac-8ead-cea2d8c8b47a)
+![image](https://github.com/user-attachments/assets/af1dabbf-3def-46dc-8755-1f0eae6721a0)
+![image](https://github.com/user-attachments/assets/bb204697-cbb3-4c90-aba3-efdef1d177bd)
